@@ -75,15 +75,8 @@ function playThis(name, cantaret, song, index, timp) {
   isPlay = true;
   playpause.classList.remove("fa-play");
   playpause.classList.add("fa-pause");
-  // handleThis(index);
   playSongList();
 }
-
-// function handleThis(ind){
-//   for(x in songs){
-
-//   }
-// }
 
 function playSongList() {
   document.title = playNow.nume;
