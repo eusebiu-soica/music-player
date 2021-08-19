@@ -40,6 +40,10 @@ body {
   box-shadow: 0 10px 15px black;
 }
 
+.play-area {
+  width: 100%;
+}
+
 .left {
   width: 70%;
   height: 100%;

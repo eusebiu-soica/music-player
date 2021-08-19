@@ -47,7 +47,6 @@ function loadMusic() {
   source.src = "songs/" + playNow.mp3;
   for (let i in songs) {
     songList.innerHTML += `<li id="a${songs[i].index}" 
-    
       onclick="playThis('${songs[i].name}','${songs[i].artist}','${songs[i].song}','${songs[i].index}','${songs[i].duration}')">
       <div class="row">
        <i class="fa fa-music" aria-hidden="true"></i>
@@ -59,8 +58,7 @@ function loadMusic() {
   }
 }
 
-//functia de play la melodie din folder
-
+//functia play la melodie din lista
 function playThis(name, cantaret, song, index, timp) {
   songIndex = index;
   playNow.nume = name;
@@ -152,7 +150,7 @@ function loopSong() {
   }
 }
 
-// functia de regare melodie dupa butonul > sau <
+// functia de redare melodie dupa butonul > sau <
 function nextReversePlay() {
   playNow.index = songIndex;
   playNow.nume = songs[songIndex].name;

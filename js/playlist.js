@@ -17,17 +17,9 @@ const songs = [
     album: "",
     duration: "03:20",
   },
+
   {
     index: 2,
-    name: "Better when Im dancing",
-    artist: "Meghan Trainor",
-    song: "m1.mp3",
-    way: "../songs/",
-    album: "Meghen and Friends",
-    duration: "02:56",
-  },
-  {
-    index: 3,
     name: "Levitate",
     artist: "Hadouken!",
     song: "Hadouken! - Levitate.mp3",
@@ -36,7 +28,7 @@ const songs = [
     duration: "04:38",
   },
   {
-    index: 4,
+    index: 3,
     name: "Thousand Miles",
     artist: "Tove Lo",
     song: "Tove Lo - Thousand Miles.mp3",
@@ -45,7 +37,7 @@ const songs = [
     duration: "03:28",
   },
   {
-    index: 5,
+    index: 4,
     name: "The water and the sun",
     artist: "ZEB",
     song: "ZEB - The water and the sun.mp3",
@@ -54,7 +46,7 @@ const songs = [
     duration: "06:15",
   },
   {
-    index: 6,
+    index: 5,
     name: "Crying for no reason",
     artist: "Katy B",
     song: "Katy B - Crying for no reason.mp3",
@@ -63,7 +55,7 @@ const songs = [
     duration: "04:00",
   },
   {
-    index: 7,
+    index: 6,
     name: "Hold me tight",
     artist: "KOSIKK",
     song: "KOSIKK - Hold me tight.mp3",
@@ -72,7 +64,7 @@ const songs = [
     duration: "03:50",
   },
   {
-    index: 8,
+    index: 7,
     name: "Far Centaurus",
     artist: "Nigel Stanford",
     song: "Nigel Stanford - Far Centaurus.mp3",
@@ -82,7 +74,7 @@ const songs = [
   },
 
   {
-    index: 9,
+    index: 8,
     name: "Feel",
     artist: "Robbie Williams",
     song: "Robbie Williams - Feel.mp3",
